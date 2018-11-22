@@ -1,1 +1,29 @@
+body {
+	font: 12px "Helvetica", Arial, sans-serif;
+	background-color: #FDFCF0;
+}
+ul, li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+	float: left;
+}
+.top-util-left {
+	font-size: 10px;
+	color: black;
+	line-height: 25px;
 
+}
+.logo {
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	float: left;
+}
+a {
+	text-decoration: none;
+	display: block;
+}
+a:hover {
+	text-decoration: underline;
+}
