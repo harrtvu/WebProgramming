@@ -6,6 +6,10 @@ body {
 	width: 60%;
 	margin-left: 20%;
 }
+.container-small {
+	width: 40%;
+	margin-left: 30%;
+}
 .top-util ul, .top-util li {
 	list-style: none;
 	display: inline-block;
@@ -269,4 +273,29 @@ outline: 0;
 	top: -80px;
     left:900px;
     margin-left: 20px;
+}
+
+.payment {
+	background-color: #FDFCF0;
+	min-height: 550px;
+}
+.payment li {
+	list-style: none;
+	padding: 5px 0;
+	font-size: 14px;
+	color: #A21F04;
+	font-weight: bold;
+}
+.payment {
+	border-bottom: 1px solid grey;
+}
+.payment-list {
+	margin: 5px;
+}
+.payment-list2 {
+	margin-right: 75px;
+}
+.payment-list2 input[type="submit"] {
+	float: right;
+	margin-top: 20px;
 }

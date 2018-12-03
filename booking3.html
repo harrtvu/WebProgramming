@@ -69,14 +69,14 @@
 		<div class="container height-large">
 			<h2 class="title">SCHEDULES</h2>
 			<div class="schedule">
-				<form action="action.php" method="POST">
+				<form action="payment.php" method="POST">
 					<ul>
 						<li>Desired Date: <input type="date" name="date" required></li>
 						<li>Location: 
-							<select id="location">
-								<option value="1">Location #1</option>
-								<option value="2">Location #2</option>
-								<option value="3">Location #3</option>
+							<select name="location" id="location">
+								<option value="Oshawa">Oshawa</option>
+								<option value="Ajax">Ajax</option>
+								<option value="Pickering">Pickering</option>
 							</select>
 						</li>
 						<li>Desired Time: 
@@ -90,11 +90,12 @@
 						</li>
 					</ul>
 					<ul class="right price">
-						<li>Price: <span id="price">$0.00</span>
+						<li>Price: $<span id="price">0.00</span>
 						</li>
-						<li>Tax(13%): <span id="tax">$0.00</span></li>
-						<li>Total Price: <span id="total">$0.00</span>
+						<li>Tax(13%): $<span id="tax">0.00</span></li>
+						<li>Total Price: $<span id="total">0.00</span>
 						</li>
+						<input id="total2" type="hidden" name="total" value ="0.00">
 						<li><input type="submit" name="submit" value="SUBMIT"></li>
 					</ul>
 				</form>
