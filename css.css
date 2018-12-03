@@ -185,3 +185,83 @@ width: 300px;
 	font-size: 12 pt;
 	font-weight: bold;
 }
+
+.main-container .info-container .seatNum,
+.main-container .info-container .houseNum{
+	color: #e3c27b;
+	font-family: "Impact";
+	font-size: 70px;
+	position: relative;
+    left:390px;
+}
+
+.main-container .info-container .seatUnit,
+.main-container .info-container .houseUnit{
+	text-transform: uppercase;
+	color:#e3c27b;
+	font-family: "Impact";
+	font-size: 32px;
+	position: relative;
+    left:390px;
+
+}
+.main-container .info-container .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-container .info-container .local{
+	color: blue;
+	font-family: "Impact";
+	font-size: 40px;
+	position: relative;
+    left:390px;
+}
+.main-container .info-container .btn {
+    border: 1px solid dodgerblue;
+    background-color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    left:390px;
+  }
+
+.main-container .info-container .btn:hover{
+
+color: white;
+}
+
+.main-container .info-container .Loc1{
+	background-color: dodgerblue;
+	color: red;
+}
+
+.main-container .info-container .Loc2{
+	background-color: dodgerblue;
+	color: green;
+}
+
+.main-container .info-container .Loc3{
+	background-color: dodgerblue;
+	color: orange;
+}
+.main-container .info-container .add{
+	color: black;
+	font-family: "Impact";
+	font-size: 20px;
+	position: relative;
+    left:390px;
+}
+
+.main-container .info-container .icon{
+	position: relative;
+	top: -80px;
+    left:900px;
+}
