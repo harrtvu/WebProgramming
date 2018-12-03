@@ -213,14 +213,14 @@ width: 300px;
 }
 
 .main-container .info-container .local{
-	color: blue;
+	color: #A21F04;
 	font-family: "Impact";
 	font-size: 40px;
 	position: relative;
     left:390px;
 }
 .main-container .info-container .btn {
-    border: 1px solid dodgerblue;
+    border: 1px transparent;
     background-color: black;
     padding: 14px 28px;
     font-size: 16px;
@@ -237,19 +237,22 @@ width: 300px;
 
 color: white;
 }
+.main-container .info-container .btn:focus{
+outline: 0;
+}
 
 .main-container .info-container .Loc1{
-	background-color: dodgerblue;
-	color: red;
+	background-color: #A21F04;
+	color: blue;
 }
 
 .main-container .info-container .Loc2{
-	background-color: dodgerblue;
+	background-color: #A21F04;
 	color: green;
 }
 
 .main-container .info-container .Loc3{
-	background-color: dodgerblue;
+	background-color: #A21F04;
 	color: orange;
 }
 .main-container .info-container .add{
@@ -260,8 +263,10 @@ color: white;
     left:390px;
 }
 
-.main-container .info-container .icon{
+.main-container .info-container .icon a{
+	float: left;
 	position: relative;
 	top: -80px;
     left:900px;
+    margin-left: 20px;
 }
