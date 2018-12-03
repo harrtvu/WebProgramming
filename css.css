@@ -138,6 +138,9 @@ header {
 	line-height: 40px;
 	float: right;
 }
+.custom-width {
+	width: 60%;
+}
 .schedule li {
 	list-style: none;
 	padding: 5px 0;
@@ -174,8 +177,8 @@ input[type="submit"] {
     clear: both;
 }
 .poster{
-height: 400px;
-width: 270px;
+height: 450px;
+width: 300px;
 
 }
 .title{
