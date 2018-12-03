@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CGV Cinemas - Booking</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+	<div>
+		<!-- HEADER STARTS HERE -->
+		<div class="top-util container">
+			<ul class="top-util-left">
+				<li><a href="#" target="_blank"><img class="util-logo" src="images/facebook-logo.png">Like</a></li>
+				<li><a href="#"><img class="util-logo" src="images/twitter-logo.png">Follow</a></li>
+				<li><a href="#"><img class="util-logo" src="images/instagram-logo.png">Follow</a></li>
+			</ul>
+			<ul id="top-util-right">
+				<li><a href="#">news</a></li>
+				<li>|</li>
+				<li><a href="loginPage.php">login</a></li>
+				<li>|</li>
+				<li><a href="signUpPage.php">sign up</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<header>
+			<div class="container">
+				<a style="float: left" href="html.html"><img class="logo" src="images/cgv-logo.png"></a>
+				<div class="head-nav">
+					<img class="cul-logo" src="images/cul-logo.png">
+					<ul>
+						<li><a href="#">MOVIES</a></li>
+						<li><a href="#">CINEMAS</a></li>
+						<li><a href="#">PROMOTION</a></li>
+						<li><a href="#">MEMBERSHIP</a></li>
+						<li><a href="#">CONCESSION</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="clear"></div>
+		<!-- HEADER ENDS HERE -->
+
+		<!-- CODE STARTS AFTER HERE --> 
+		
+		<div class="main-container">
+			<div class="container">
+				<img class="trailer-poster" src="images/movie1.jpg" alt="movie1">
+			</div>
+		</div>
+		<div class="container height-medium">
+			<h2 class="title">BOHEMIAN RHAPSODY</h2>
+			<div class="movie-info left">
+				<ul>
+					<li>STARRING : Rami Malek, Lucy Boynton, Gwilym Lee</li>
+					<li>DIRECTOR : Bryan Singer</li>
+					<li>RATING : 17+</li>
+					<li>GENRE : MUSIC</li>
+					<li>LANGUAGE : English</li>
+					<li>DURATION : 133 Minutes</li>
+				</ul>
+			</div>
+			<div class="movie-synp">
+				<p>A chronicle of the years leading up to Queen's legendary appearance at the Live Aid (1985) concert.</p>
+			</div>
+		</div>
+		<div class="container height-large">
+			<h2 class="title">SCHEDULES</h2>
+			<div class="schedule">
+				<form action="action.php" method="POST">
+					<ul>
+						<li>Desired Date: <input type="date" name="date" required></li>
+						<li>Location: 
+							<select id="location">
+								<option value="1">Location #1</option>
+								<option value="2">Location #2</option>
+								<option value="3">Location #3</option>
+							</select>
+						</li>
+						<li>Desired Time: 
+							<input type="radio" name="time" value="10:45" required> 10:45 
+							<input type="radio" name="time" value="16:00"> 16:00 
+							<input type="radio" name="time" value="18:00"> 18:00 
+							<input type="radio" name="time" value="21:00"> 21:00 
+						</li>
+						<li>Number of Tickets: 
+							<input type="number" name="tickets" min=1 max=8 onchange="calcTotal(this)" required>
+						</li>
+					</ul>
+					<ul class="right price">
+						<li>Price: <span id="price">$0.00</span>
+						</li>
+						<li>Tax(13%): <span id="tax">$0.00</span></li>
+						<li>Total Price: <span id="total">$0.00</span>
+						</li>
+						<li><input type="submit" name="submit" value="SUBMIT"></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+
+
+
+		<!-- FOOTER STARTS HERE -->
+		<div class="footer">
+			<div class="footer-top"></div>
+			<div class="footer-nav container">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li>|</li>
+					<li><a href="#">Legal Terms</a></li>
+					<li>|</li>
+					<li><a href="#">Careers</a></li>
+					<li>|</li>
+					<li><a href="#">Feedback</a></li>
+					<li>|</li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<img class="footer-logo" src="images/cgv-logo.png">
+				<p class="copyright">COPYRIGHT 2018. CGV ALL RIGHTS RESERVED.</p>
+			</div>
+		</div>
+		<!-- FOOTER ENDS HERE -->
+		
+	</div>
+
+</body>
+</html>
