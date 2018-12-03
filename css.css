@@ -113,3 +113,22 @@ header {
 	top: 100px;
 	left: 26.5%;
 }
+.movie {
+    float: left;
+    width: 33.33%;
+}
+
+.movies:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.poster{
+height: 400px;
+width: 270px;
+
+}
+.title{
+	font-size: 12 pt;
+	font-weight: bold;
+}
