@@ -53,14 +53,15 @@
 			
 	
 
-
+<div align="center">
+<body style="margin-top: 100px">
 <header>Membership</header>
 <title>Membership</title>
 
 <form name="form3" method="POST" action="member.php">
 <fieldset>
 <label>Username</label><input name="memberUser" value=<?php echo $_SESSION["user"]; ?>>
-<input name="submit" type="submit" value="Save username">
+<br><input name="submit" type="submit" value="Save username">
 <br><?php echo $memberUserLog ?>
 </fieldset>
 </form>
@@ -72,7 +73,11 @@
 		<br><input name="submit" type="submit" value="Save password">
 		<br><?php echo $memberPassLog ?>
 	</fieldset>
+</form>
+<br><input type="button" onclick="location.href='html.html';" value="Go to homepage"/>
 
+</body>
+</div>
     
 
 
