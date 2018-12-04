@@ -54,8 +54,12 @@
 	
 
 <div align="center">
-<body style="margin-top: 100px">
-<header>Membership</header>
+<body style="margin-top: 100px 	list-style: none;
+	padding: 5px 0;
+	font-size: 14px;
+	color: #A21F04;
+	font-weight: bold;">
+<h2 class="title">Membership</h2>
 <title>Membership</title>
 
 <form name="form3" method="POST" action="member.php">

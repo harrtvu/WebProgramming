@@ -53,9 +53,13 @@
 
 
 <div align="center">
-<body style="margin-top: 100px">
+<body style="margin-top: 100px 	list-style: none;
+	padding: 5px 0;
+	font-size: 14px;
+	color: #A21F04;
+	font-weight: bold;">
 
-<header>Login</header>
+<h2 class="title">Login</h2>
 <form name="form2" method="POST" action="loginPage.php">
 
 	<label>Username</label><input type="text" name="loginUser">

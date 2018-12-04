@@ -55,8 +55,12 @@
 <title>Sign up</title>
 
 <div align="center">
-<body style="margin-top: 100px">
-<header>Login</header>
+<body style="margin-top: 100px 	list-style: none;
+	padding: 5px 0;
+	font-size: 14px;
+	color: #A21F04;
+	font-weight: bold;">
+<h2 class="title">Login</h2>
 <form name="form1" method="POST" action="signUpPage.php">
 	<label>Username</label><input type="text" name="signUser">
 	<span><?php echo $registerUserErrors ?></span>
