@@ -32,10 +32,10 @@
 				<div class="head-nav">
 					<img class="cul-logo" src="images/cul-logo.png">
 					<ul>
-						<li><a href="#">MOVIES</a></li>
-						<li><a href="#">CINEMAS</a></li>
+						<li><a href="html.html">MOVIES</a></li>
+						<li><a href="location1.html">CINEMAS</a></li>
 						<li><a href="#">PROMOTION</a></li>
-						<li><a href="#">MEMBERSHIP</a></li>
+						<li><a href="loginPage.php">MEMBERSHIP</a></li>
 						<li><a href="#">CONCESSION</a></li>
 					</ul>
 				</div>
@@ -52,11 +52,11 @@
 <title>Login</title>
 
 
-<div align="center">
+<div align="center" class="payment">
 <body style="margin-top: 100px 	list-style: none;
 	padding: 5px 0;
-	font-size: 14px;
-	color: #A21F04;
+	font-size: 20px;
+	color: black;
 	font-weight: bold;">
 
 <h2 class="title">Login</h2>

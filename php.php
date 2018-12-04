@@ -1,7 +1,7 @@
 <?php
 $servername="localhost";
-$serveruser="user";
-$serverpassword="12345";
+$serveruser="lhongoc932";
+$serverpassword="thienhoang";
 $dbname="finalproject";
 $requiredField = true;
 $registerUserErrors="";
