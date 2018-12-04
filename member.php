@@ -1,7 +1,6 @@
 <?php include "php.php"; ?>
 
 
-
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -52,30 +51,33 @@
 			<div class="container">
 				<!-- CODE STARTS HERE -->
 			
-<title>Sign up</title>
+	
 
-<div align="center">
-<body style="margin-top: 100px">
-<header>Login</header>
-<form name="form1" method="POST" action="signUpPage.php">
-	<label>Username</label><input type="text" name="signUser">
-	<span><?php echo $registerUserErrors ?></span>
-	<br><label>Password</label><input type="password" name="signPass">
-	<span><?php echo $registerPassErrors ?></span>
-	<br><label>Password Confirm</label><input type="password" name="retypePass">
-	<span><?php echo $registerRetypePassErrors ?></span>
-	<br><input type="submit" name="submit" value="Submit" />
-	<br><?php echo $registerLog1 ?>
+
+<header>Membership</header>
+<title>Membership</title>
+
+<form name="form3" method="POST" action="member.php">
+<fieldset>
+<label>Username</label><input name="memberUser" value=<?php echo $_SESSION["user"]; ?>>
+<input name="submit" type="submit" value="Save username">
+<br><?php echo $memberUserLog ?>
+</fieldset>
 </form>
+<form name="form4" method="POST" action="member.php">
+	<fieldset>
+		<br><label>Old password</label><input name="memberOldPass">
+		<br><label>New password</label><input name="memberNewPass">
+		<br><label>Confirm new password</label><input name="memberConfirmPass">
+		<br><input name="submit" type="submit" value="Save password">
+		<br><?php echo $memberPassLog ?>
+	</fieldset>
 
-<br><input type="button" onclick="location.href='html.html';" value="Go to homepage"/>
-</body>
-</div>
     
 
 
 			
-	
+			
 		
 		
 		</div>
